@@ -5,7 +5,7 @@
 }
 :root {
   --primary-clr: rgb(238, 243, 247);
-  --accent: rgba(75, 112, 144, 0.315);
+  --accent: rgb(0, 136, 255);
 
   --light: rgb(255, 255, 255);
   --dark: rgb(61, 67, 85);
@@ -23,7 +23,7 @@ ul {
   display: flex;
 }
 .container {
-  width: 60rem;
+  width: 80rem;
   margin-inline: auto;
 }
 header {
@@ -36,6 +36,23 @@ header {
   display: flex;
   align-items: center;
 }
+.nav a {
+  margin-left: 16px;
+  color: var(--accent);
+}
 .logo {
   font-size: 32px;
+}
+.hero {
+  padding-block: 200px;
+}
+.cta {
+  width: 50%;
+}
+.cta p {
+  margin-block: 16px;
+}
+.hero-icon {
+  font-size: 128px;
+  margin-inline: auto;
 }
