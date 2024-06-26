@@ -1,0 +1,41 @@
+* {
+  /* outline: 1px solid orangered; */
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --primary-clr: rgb(238, 243, 247);
+  --accent: rgba(75, 112, 144, 0.315);
+
+  --light: rgb(255, 255, 255);
+  --dark: rgb(61, 67, 85);
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+}
+.bold {
+  font-weight: bold;
+}
+.flex {
+  display: flex;
+}
+.container {
+  width: 60rem;
+  margin-inline: auto;
+}
+header {
+  background-color: var(--primary-clr);
+}
+.navbar {
+  justify-content: space-between;
+}
+.nav {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  font-size: 32px;
+}
